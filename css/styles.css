@@ -1,0 +1,485 @@
+* {
+	font-family: 'Roboto', sans-serif;
+}
+
+.container {
+	/* outline: solid red; */
+	padding: 1em;
+	min-width: 570px;
+	width: auto !important;
+	width: 570px;
+}
+
+body {
+	background-color: rgb(241 241 241);
+}
+
+/* EStilos de NavBar */
+.navbar {
+	background-color: #ffffff;
+	position: fixed;
+	width: 100%;
+	z-index: 1000000;
+	top: 0;
+}
+
+#LogoNB {
+	width: 50px;
+	margin-left: 140px;
+}
+
+#FSearch {
+	width: 420px;
+	height: 40px;
+}
+
+#LoginNB {
+	border-radius: 8px;
+	font-size: 18px;
+	margin-right: 8px;
+}
+
+#LoginNB:hover {
+	background-color: #ebecfc;
+	color: #3b49df;
+	text-decoration: underline;
+}
+
+#CreateANB {
+	border: 1px solid #3b49df;
+	border-radius: 8px;
+	font-size: 18px;
+	color: #3b49df;
+	margin-right: 150px;
+}
+
+@media (min-width: 570px) {
+	#CreateANB {
+		border: 1px solid #3b49df;
+		border-radius: 8px;
+		font-size: 18px;
+		color: #3b49df;
+		margin-right: 0px;
+	}
+}
+
+#CreateANB:hover {
+	background-color: #3b49df;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.Top3 {
+	width: 632px;
+	height: 90px;
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	align-items: center;
+}
+
+.MenuTop {
+	border-radius: 8px;
+	padding: 10px;
+	font-size: 20px;
+}
+
+.MenuTop:hover {
+	background-color: #ffffff;
+	color: #3b49df;
+}
+
+.FBold {
+	font-weight: bold;
+}
+
+.FGray {
+	color: #525252;
+}
+
+#imgHead{
+	overflow: hidden;
+	height: 280px;
+	position: relative;
+}
+
+#ImgTop {
+	/* width: 655px; */
+	padding: 0px;
+	position: absolute;
+	bottom: -30%
+}
+
+.card {
+	width: 100%;
+	min-height: 100px;
+	background-color: #ffffff;
+	border: 1px solid #dedede;
+	border-radius: 8px;
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+	align-items: center;
+	margin-bottom: 7px;
+}
+
+.CardHead {
+	width: 95%;
+	height: 35px;
+	display: flex;
+	flex-direction: row;
+}
+
+.ImgTmb {
+	width: 35px;
+	height: 35px;
+	border-radius: 20px;
+	border: 1px solid #dedede;
+}
+
+.CardTitleHead {
+	width: 450px;
+	height: 35px;
+	padding-left: 7px;
+}
+
+.Name {
+	font-size: 14px;
+	font-weight: bold;
+}
+
+.FS12 {
+	font-size: 12px;
+}
+
+.FS16{
+	font-size: 16px;
+}
+
+.CardBody,
+.CardFoot {
+	margin-top: 10px;
+	width: 85%;
+}
+
+.ArticleName {
+	font-size: 28px;
+	font-weight: bold;
+}
+
+.LinkArticle {
+	text-decoration: none;
+	color: #000000;
+}
+
+.LinkArticle:hover {
+	color: #3b49df;
+}
+
+.Hashtags {
+	margin-top: 7px;
+}
+
+.LinksHashtags {
+	text-decoration: none;
+	font-size: 14px;
+	background-color: #ffffff;
+	border: 1px solid #ffffff;
+	padding: 3px;
+	border-radius: 5px;
+}
+
+.LinksHashtags:hover {
+	background-color: #ebecfc;
+	border: 1px solid #c4c6f6;
+}
+
+.CardFoot {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.Reactions {
+	height: 20px;
+	padding-left: 5px;
+	padding-right: 5px;
+}
+
+.LinkReactions {
+	padding: 3px;
+	border-radius: 5px;
+	font-size: 13px;
+}
+
+.LinkReactions:hover {
+	background-color: #f6f6f6;
+}
+
+.Spacer {
+	height: 20px;
+	width: 170px;
+}
+
+.Save {
+	padding: 3px 10px 3px 10px;
+	border-radius: 5px;
+	background-color: #d6d6d6;
+	color: #3d3d3d;
+	font-size: 16px;
+}
+
+.Save:hover {
+	background-color: #bdbdbd;
+	color: #090909;
+}
+
+#LogoTilt {
+	padding-top: 40px;
+	width: 52px;
+}
+
+#LogoT {
+	width: 80px;
+	height: 123px;
+}
+
+#TextJoin {
+	/* width: 573px; */
+	width: 100%;
+	height: 123px;
+}
+
+.LinkBlue {
+	text-decoration: none;
+	color: #3b49df;
+}
+
+.CreateA {
+	width: 140px;
+	height: 40px;
+	background-color: #3b49df;
+	color: #ffffff;
+	font-weight: bold;
+	font-size: 16px;
+	margin-top: 10px;
+	margin-bottom: 5px;
+}
+
+.CreateA:hover {
+	background-color: #2f3ab2;
+	color: #ffffff;
+}
+
+#Login {
+	width: 140px;
+	height: 40px;
+	color: #3b49df;
+	font-weight: bold;
+	font-size: 16px;
+	margin-bottom: 40px;
+}
+
+#Login:hover {
+	background-color: #ececec;
+}
+
+#Animation {
+	margin-top: 7px;
+	width: 98%;
+	/* width: 283px;
+    max-width: 283px;
+    height: auto; */
+	border-radius: 6px;
+	background-color: #fafafa;
+}
+
+.Box {
+	background-color: #fafafa;
+	border-radius: 6px;
+	border: 1px solid #dedede;
+	margin-bottom: 15px;
+	width: 314px;
+	margin-left: 10px;
+}
+
+.LinksAnimation {
+	text-decoration: none;
+}
+
+.Box2 {
+	background-color: #fafafa;
+	border-radius: 6px;
+	border: 1px solid #dedede;
+	margin-bottom: 15px;
+	padding: 0px;
+	width: 314px;
+	margin-left: 10px;
+}
+
+#Deepgram {
+	/* width: 314px; */
+	width: 100%;
+}
+
+#LinkDeepgram {
+	color: #000000;
+	text-decoration: none;
+}
+
+#LinkDeepgram:hover {
+	color: #3b49df;
+}
+
+.BoxDiv {
+	border: 1px solid #dedede;
+	padding: 12px;
+	/* width: 314px; */
+	width: 100%;
+}
+
+.BoxDivW {
+	border: 1px solid #dedede;
+	padding: 12px;
+	/* width: 314px; */
+	width: 100%;
+}
+
+.BoxDivW > a {
+	text-decoration: none;
+	color: #525252;
+}
+
+.BoxDivW:hover {
+	background-color: #ffffff;
+}
+
+.BoxDivW:hover > a {
+	color: #3b49df;
+}
+
+.BtnSide {
+	width: 250px;
+	height: 40px;
+}
+
+/* Estilos side y footer */
+
+.cardColor {
+	background-color: white;
+}
+
+.socialMedia {
+	display: inline;
+}
+
+.overflow {
+	overflow: scroll;
+	width: 300px;
+	height: 300px;
+}
+
+.list-group-item:hover {
+	background-color: rgb(47 58 178);
+}
+
+.font-pcolor {
+	color: rgb(47 58 178);
+	text-decoration: none;
+}
+
+.aside-image {
+	width: 100%;
+}
+
+.bd-subnavbar {
+	position: sticky;
+	top: 0;
+}
+
+#CreateAs {
+	border: 1px solid #3b49df;
+	border-radius: 8px;
+	font-size: 18px;
+	color: #3b49df;
+	/* margin-right: 150px;*/
+}
+
+#CreateAs:hover {
+	background-color: #3b49df;
+	color: #ffffff;
+	text-decoration: underline;
+}
+
+.MTR {
+	padding-left: 17px;
+	padding-top: 15px;
+}
+
+.SideIC {
+	border-radius: 6px;
+}
+
+.SideIC:hover {
+	background-color: #e2e3f3;
+	color: #2f3ab2;
+	text-decoration: underline;
+}
+
+/* Blog */
+
+.BtnIcono {
+	padding: 4px;
+	border-radius: 30px;
+	margin-top: 20px;
+	margin-bottom: 4px;
+	border: 0px;
+}
+
+.BtnIcono:hover {
+	background-color: #bbbffa;
+}
+
+.SideIconos {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+#BorderDecoration {
+	border-top: 30px solid #0098e0;
+}
+
+#CardUser {
+	display: flex;
+	flex-direction: row;
+}
+
+#MainBlog {
+	width: 70%;
+}
+
+/* temporales */
+
+/*
+.row {
+	border: 1px solid gray;
+}
+
+.col {
+	border: 1px solid blue;
+}
+
+.Border {
+	border: 1px solid rgb(197, 36, 36);
+}
+
+.container {
+	outline: solid red;
+	padding: 1em;
+}
+
+.Fill {
+	background-color: chocolate;
+}
++/
